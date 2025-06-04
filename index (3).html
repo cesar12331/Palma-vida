@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte en Palma Viva - Artesanías Tradicionales</title>
+    <meta name="description" content="Descubre el arte de tejer historias con palma. Artesanías únicas hechas a mano con tradición y calidad.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="min-h-screen bg-white">
+        <!-- Header Banner -->
+        <div class="header-banner">Encantados por esta tradición</div>
+
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Palma natural" class="hero-image">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Arte en Palma Viva Logo" class="logo-image">
+                </div>
+                <div class="hero-text">
+                    <h1>Arte en Palma</h1>
+                    <h2>viva</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="navigation-container">
+            <div class="navigation-tabs">
+                <button class="nav-tab active" data-tab="Inicio">
+                    Inicio
+                    <span class="nav-indicator"></span>
+                </button>
+                <button class="nav-tab" data-tab="Catálogo">
+                    Catálogo
+                </button>
+                <button class="nav-tab" data-tab="Materiales">
+                    Materiales
+                </button>
+                <button class="nav-tab" data-tab="Conoce sobre nosotros">
+                    Conoce sobre nosotros
+                </button>
+                <button class="nav-tab" data-tab="Haz tu pedido">
+                    Haz tu pedido
+                </button>
+            </div>
+        </div>
+
+        <!-- Inicio Section -->
+        <div id="Inicio" class="section active">
+            <div class="container">
+                <h2 class="section-title">Bienvenidos a Arte en Palma Viva</h2>
+                
+                <div class="featured-section">
+                    <div class="featured-badge">El arte de tejer historias con palma</div>
+                    
+                    <div class="featured-content">
+                        <div class="featured-image">
+                            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Bolsa artesanal de palma">
+                        </div>
+                        <div class="featured-text">
+                            <h3>El arte de tejer historias con palma</h3>
+                            <p>Cada una de nuestras artesanías es más que un simple objeto; es el reflejo de una historia, de la habilidad y el amor con los que nuestros artesanos transforman la palma en verdaderas obras de arte.</p>
+                            <p>Nuestras piezas son creadas por artesanos locales que han perfeccionado técnicas transmitidas por generaciones, preservando un patrimonio cultural invaluable mientras crean objetos de extraordinaria belleza y funcionalidad.</p>
+                        </div>
+                    </div>
+
+                    <div class="mission-section">
+                        <p>Con técnicas heredadas de generación en generación, creamos piezas únicas que llevan consigo el alma de nuestra cultura. Aquí no solo encontrarás artesanías sino tradición, calidad y belleza en cada fibra tejida.</p>
+                        
+                        <div class="mission-card">
+                            <h4>Nuestra Misión</h4>
+                            <p>En Arte en Palma Viva, nos dedicamos a preservar y promover el arte tradicional del tejido de palma, apoyando a las comunidades artesanales y ofreciendo productos sostenibles que conectan a las personas con nuestras raíces culturales.</p>
+                            
+                            <div class="mission-grid">
+                                <div class="mission-item">
+                                    <h5>Sostenibilidad</h5>
+                                    <p>Utilizamos materiales naturales y procesos respetuosos con el medio ambiente.</p>
+                                </div>
+                                <div class="mission-item">
+                                    <h5>Tradición</h5>
+                                    <p>Preservamos técnicas ancestrales que han sido transmitidas por generaciones.</p>
+                                </div>
+                                <div class="mission-item">
+                                    <h5>Comunidad</h5>
+                                    <p>Apoyamos a artesanos locales y sus familias, fomentando el desarrollo económico.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catálogo Section -->
+        <div id="Catálogo" class="section">
+            <div class="container-wide">
+                <h2 class="section-title">Nuestro Catálogo</h2>
+                
+                <div class="catalog-container">
+                    <div id="catalog-grid" class="catalog-grid">
+                        <!-- Products will be generated by JavaScript -->
+                    </div>
+                    
+                    <!-- Custom Scrollbar -->
+                    <div class="custom-scrollbar">
+                        <button class="scroll-btn scroll-up">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="18,15 12,9 6,15"></polyline>
+                            </svg>
+                        </button>
+                        <div class="scrollbar-track">
+                            <div class="scrollbar-thumb"></div>
+                        </div>
+                        <button class="scroll-btn scroll-down">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6,9 12,15 18,9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Materiales Section -->
+        <div id="Materiales" class="section">
+            <div class="container">
+                <h2 class="section-title">Nuestros Materiales</h2>
+                
+                <div class="materials-badge">Calidad artesanal con un toque de tradición y estilo</div>
+                
+                <div class="materials-content">
+                    <div class="materials-text">
+                        <p>Utilizamos palma natural de la más alta calidad, seleccionada cuidadosamente por nuestros artesanos. Cada fibra es tratada con técnicas ancestrales para garantizar durabilidad y belleza en cada pieza.</p>
+                        
+                        <h3>Proceso de selección</h3>
+                        <p>Nuestros artesanos seleccionan minuciosamente cada hoja de palma, considerando su flexibilidad, resistencia y color natural. Solo las mejores fibras son elegidas para crear nuestras piezas.</p>
+                        
+                        <h3>Técnicas de tejido</h3>
+                        <p>Empleamos diversas técnicas de tejido que han sido perfeccionadas a lo largo de generaciones:</p>
+                        <ul>
+                            <li>Tejido cruzado: Proporciona mayor resistencia y durabilidad</li>
+                            <li>Tejido en espiral: Ideal para crear formas redondeadas y orgánicas</li>
+                            <li>Tejido en zigzag: Crea patrones geométricos distintivos</li>
+                            <li>Tejido calado: Permite diseños más ligeros y decorativos</li>
+                        </ul>
+                        
+                        <h3>Tintes naturales</h3>
+                        <p>Para las piezas coloreadas, utilizamos tintes naturales extraídos de plantas, cortezas y minerales, siguiendo procesos tradicionales que respetan el medio ambiente y garantizan colores vibrantes y duraderos.</p>
+                    </div>
+                    <div class="materials-images">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Accesorios de palma">
+                        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Canasta de palma">
+                    </div>
+                </div>
+                
+                <div class="care-section">
+                    <h3>Cuidado de tus artesanías</h3>
+                    <p>Para mantener tus piezas de palma en óptimas condiciones por muchos años, te recomendamos:</p>
+                    <ul>
+                        <li>Evitar la exposición prolongada a la luz solar directa</li>
+                        <li>Mantener alejado de la humedad excesiva</li>
+                        <li>Limpiar con un paño seco o ligeramente húmedo</li>
+                        <li>Almacenar en un lugar fresco y seco cuando no esté en uso</li>
+                        <li>Evitar colocar objetos pesados que puedan deformar la estructura</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conoce sobre nosotros Section -->
+        <div id="Conoce sobre nosotros" class="section">
+            <div class="container-wide">
+                <h2 class="section-title-center">Conoce sobre nosotros</h2>
+                
+                <div class="about-badge">La magia de lo hecho a mano</div>
+                
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Productos artesanales">
+                    </div>
+                    <div class="about-text">
+                        <p>En un mundo donde la industrialización domina, las artesanías de palma representan un respiro de autenticidad.</p>
+                        <p>Cada hilo entrelazado es una muestra de paciencia, dedicación y amor por el arte popular.</p>
+                        <p>Con cada compra, apoyas a manos talentosas que mantienen viva esta hermosa tradición y llevas a casa una pieza única que cuenta la historia de nuestro pueblo y el corazón de quienes la crearon.</p>
+                    </div>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="contact-section">
+                    <div class="contact-header">
+                        <h3>¡Conecta con nosotros!</h3>
+                        <p>Estamos aquí para ayudarte. Contáctanos por cualquiera de nuestros canales</p>
+                    </div>
+                    
+                    <div class="contact-grid">
+                        <!-- Phone -->
+                        <div class="contact-card">
+                            <div class="contact-icon phone-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                </svg>
+                            </div>
+                            <h4>Teléfono</h4>
+                            <p>Llámanos directamente</p>
+                            <a href="tel:+573001234567">+57 300 123 4567</a>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div class="contact-card">
+                            <div class="contact-icon email-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                            </div>
+                            <h4>Correo</h4>
+                            <p>Escríbenos un email</p>
+                            <a href="mailto:info@artepalmaviva.com">info@artepalmaviva.com</a>
+                        </div>
+                        
+                        <!-- WhatsApp -->
+                        <div class="contact-card">
+                            <div class="contact-icon whatsapp-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0012.05 0z"/>
+                                </svg>
+                            </div>
+                            <h4>WhatsApp</h4>
+                            <p>Chatea con nosotros</p>
+                            <a href="https://wa.me/573001234567" target="_blank">+57 300 123 4567</a>
+                        </div>
+                        
+                        <!-- Instagram -->
+                        <div class="contact-card">
+                            <div class="contact-icon instagram-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </div>
+                            <h4>Instagram</h4>
+                            <p>Síguenos en redes</p>
+                            <a href="https://instagram.com/artepalmaviva" target="_blank">@artepalmaviva</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Haz tu pedido Section -->
+        <div id="Haz tu pedido" class="section">
+            <div class="container-wide">
+                <div class="order-header">
+                    <h2>Haz tu pedido</h2>
+                    <p>Personaliza tu artesanía y recibe una pieza única hecha especialmente para ti</p>
+                </div>
+                
+                <div class="order-container">
+                    <!-- Catalog Selections Preview -->
+                    <div id="selection-preview" class="selection-preview" style="display: none;">
+                        <h4>Selecciones del catálogo:</h4>
+                        <p>Producto: <span id="selected-product"></span></p>
+                        <p>Color: <span id="selected-color"></span></p>
+                        <p>Tamaño: <span id="selected-size"></span></p>
+                    </div>
+                    
+                    <div class="order-content">
+                        <!-- Left Column - Form -->
+                        <div class="order-form">
+                            <h3>Información del pedido</h3>
+                            
+                            <form id="order-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label>Nombre completo</label>
+                                        <input type="text" placeholder="Tu nombre" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Correo electrónico</label>
+                                        <input type="email" placeholder="tu@email.com" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Producto</label>
+                                    <select id="product-select">
+                                        <option value="">Selecciona un producto</option>
+                                        <option value="ARTESANIA#1">ARTESANIA#1</option>
+                                        <option value="ARTESANIA#2">ARTESANIA#2</option>
+                                        <option value="ARTESANIA#3">ARTESANIA#3</option>
+                                        <option value="ARTESANIA#4">ARTESANIA#4</option>
+                                        <option value="ARTESANIA#5">ARTESANIA#5</option>
+                                        <option value="ARTESANIA#6">ARTESANIA#6</option>
+                                        <option value="ARTESANIA#7">ARTESANIA#7</option>
+                                        <option value="ARTESANIA#8">ARTESANIA#8</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label>Color</label>
+                                        <select id="color-select">
+                                            <option value="">Selecciona un color</option>
+                                            <option value="Rojo">Rojo</option>
+                                            <option value="Negro">Negro</option>
+                                            <option value="Morado">Morado</option>
+                                            <option value="Natural">Natural</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Tamaño</label>
+                                        <select id="size-select">
+                                            <option value="">Selecciona un tamaño</option>
+                                            <option value="pequeño">Pequeño (8cm - 12cm)</option>
+                                            <option value="mediano">Mediano (13cm - 18cm)</option>
+                                            <option value="grande">Grande (20cm - 25cm)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Cantidad</label>
+                                        <input type="number" min="1" value="1">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label>Comentarios adicionales</label>
+                                    <textarea rows="4" placeholder="Cuéntanos sobre algún detalle especial que te gustaría..."></textarea>
+                                </div>
+                                
+                                <button type="submit" class="submit-btn">Enviar pedido personalizado</button>
+                            </form>
+                        </div>
+                        
+                        <!-- Right Column - Info -->
+                        <div class="order-info">
+                            <div class="info-card">
+                                <h4>¿Por qué elegirnos?</h4>
+                                <div class="info-list">
+                                    <div class="info-item">
+                                        <div class="info-check">✓</div>
+                                        <div>
+                                            <h5>Artesanía auténtica</h5>
+                                            <p>Cada pieza es única y hecha a mano</p>
+                                        </div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-check">✓</div>
+                                        <div>
+                                            <h5>Materiales naturales</h5>
+                                            <p>Palma 100% natural y sostenible</p>
+                                        </div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-check">✓</div>
+                                        <div>
+                                            <h5>Personalización</h5>
+                                            <p>Adaptamos cada pieza a tus gustos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="info-card">
+                                <h4>Proceso de entrega</h4>
+                                <div class="process-list">
+                                    <div class="process-item">
+                                        <span class="process-number">1</span>
+                                        <span>Recibimos tu pedido</span>
+                                    </div>
+                                    <div class="process-item">
+                                        <span class="process-number">2</span>
+                                        <span>Nuestros artesanos crean tu pieza</span>
+                                    </div>
+                                    <div class="process-item">
+                                        <span class="process-number">3</span>
+                                        <span>Te contactamos para la entrega</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="delivery-info">
+                                <h4>Tiempo de elaboración</h4>
+                                <p>Entre 7-14 días dependiendo de la complejidad de tu pedido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-content">
+                <p>Ligero, resistente y único. La palma tejida con talento y pasión.</p>
+                <p>Hecho para ti.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
